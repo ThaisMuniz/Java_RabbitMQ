@@ -34,7 +34,9 @@ Este comando irá iniciar os contêineres do MongoDB e do RabbitMQ. O -d no fina
 
 **RabbitMQ Management Interface:**
 Você pode acessar a interface de gerenciamento do RabbitMQ em seu navegador através da URL:
+
 ```http://localhost:15672```
+
 As credenciais padrão são guest para usuário e guest para senha.
 
 Após o login, você pode acessar a fila específica do projeto em:
@@ -42,7 +44,8 @@ Após o login, você pode acessar a fila específica do projeto em:
 
 **MongoDB:**
 O MongoDB estará acessível na porta 27017. Você pode se conectar a ele usando um cliente MongoDB (como MongoDB Compass, Robo 3T, ou mongosh) com as seguintes credenciais:
-``` Host: localhost
+``` 
+    Host: localhost
     Porta: 27017
     Usuário: admin
     Senha: 123456
